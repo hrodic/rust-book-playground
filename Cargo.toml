@@ -1,0 +1,21 @@
+[package]
+name = "rust-book"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "hello_world"
+path = "src/hello_world/main.rs"
+test = true
+bench = true
+
+[[bin]]
+name = "guessing_game"
+path = "src/guessing_game/main.rs"
+test = true
+bench = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.4"
