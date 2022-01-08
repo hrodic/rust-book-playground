@@ -15,6 +15,12 @@ path = "src/guessing_game/main.rs"
 test = true
 bench = true
 
+[[bin]]
+name = "variables"
+path = "src/variables/main.rs"
+test = true
+bench = true
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
