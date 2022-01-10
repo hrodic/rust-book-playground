@@ -33,6 +33,24 @@ path = "src/branches/main.rs"
 test = true
 bench = true
 
+[[bin]]
+name = "ownership"
+path = "src/ownership/main.rs"
+test = true
+bench = true
+
+[[bin]]
+name = "references"
+path = "src/references/main.rs"
+test = true
+bench = true
+
+[[bin]]
+name = "slices"
+path = "src/slices/main.rs"
+test = true
+bench = true
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
