@@ -57,6 +57,12 @@ path = "src/structs/main.rs"
 test = true
 bench = true
 
+[[bin]]
+name = "enums"
+path = "src/enums/main.rs"
+test = true
+bench = true
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
