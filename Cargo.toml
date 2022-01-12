@@ -3,66 +3,6 @@ name = "rust-book"
 version = "0.1.0"
 edition = "2021"
 
-[[bin]]
-name = "hello_world"
-path = "src/hello_world/main.rs"
-test = true
-bench = true
-
-[[bin]]
-name = "guessing_game"
-path = "src/guessing_game/main.rs"
-test = true
-bench = true
-
-[[bin]]
-name = "variables"
-path = "src/variables/main.rs"
-test = true
-bench = true
-
-[[bin]]
-name = "functions"
-path = "src/functions/main.rs"
-test = true
-bench = true
-
-[[bin]]
-name = "branches"
-path = "src/branches/main.rs"
-test = true
-bench = true
-
-[[bin]]
-name = "ownership"
-path = "src/ownership/main.rs"
-test = true
-bench = true
-
-[[bin]]
-name = "references"
-path = "src/references/main.rs"
-test = true
-bench = true
-
-[[bin]]
-name = "slices"
-path = "src/slices/main.rs"
-test = true
-bench = true
-
-[[bin]]
-name = "structs"
-path = "src/structs/main.rs"
-test = true
-bench = true
-
-[[bin]]
-name = "enums"
-path = "src/enums/main.rs"
-test = true
-bench = true
-
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
