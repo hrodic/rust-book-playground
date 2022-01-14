@@ -42,3 +42,9 @@ pub mod back_of_house {
 
     fn cook_order() {}
 }
+
+pub mod api {
+    pub fn add_two(a: i32) -> i32 {
+        a + 2
+    }
+}

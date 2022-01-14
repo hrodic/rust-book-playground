@@ -132,10 +132,12 @@ fn propagate_errors_with_shortcut() {
 }
 
 fn custom_types_for_validation() {
+    #[allow(dead_code)]
     pub struct Guess {
         value: i32, // this value is private
     }
 
+    #[allow(dead_code)]
     impl Guess {
         pub fn new(value: i32) -> Guess { // constructor/factory method
             if value < 1 || value > 100 {
